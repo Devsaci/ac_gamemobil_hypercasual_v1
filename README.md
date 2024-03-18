@@ -1,3 +1,6 @@
+
+https://www.udemy.com/course/developper-des-jeux-mobile-hyper-casual-avec-unity-guide-complet/
+
 Bienvenue sur ce guide ultra complet qui vous permettra d'apprendre à créer des jeux mobile (Hyper) Casual et d'acquérir les bonnes pratiques.
 Si vous voulez apprendre à créer des jeux vidéo pour smartphone, optimiser vos projets, connaître les bonnes pratiques et vivre de votre passion, ce cours est fait pour vous.
 
