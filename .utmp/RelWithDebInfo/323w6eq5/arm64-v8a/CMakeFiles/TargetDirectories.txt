@@ -1,0 +1,5 @@
+C:/Users/sacid/unitydevsaciproject/Unity_Antoni_Cardinal/ac_gamemobil_hypercasual_v1/.utmp/RelWithDebInfo/323w6eq5/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/sacid/unitydevsaciproject/Unity_Antoni_Cardinal/ac_gamemobil_hypercasual_v1/.utmp/RelWithDebInfo/323w6eq5/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/sacid/unitydevsaciproject/Unity_Antoni_Cardinal/ac_gamemobil_hypercasual_v1/.utmp/RelWithDebInfo/323w6eq5/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/sacid/unitydevsaciproject/Unity_Antoni_Cardinal/ac_gamemobil_hypercasual_v1/.utmp/RelWithDebInfo/323w6eq5/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/sacid/unitydevsaciproject/Unity_Antoni_Cardinal/ac_gamemobil_hypercasual_v1/.utmp/RelWithDebInfo/323w6eq5/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
