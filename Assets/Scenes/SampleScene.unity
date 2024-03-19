@@ -161,37 +161,42 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.09507668
+      value: 0.9110025
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06978629
+      value: -0.007985988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.71141577
+      value: -0.017660735
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.6928044
+      value: -0.4119452
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -272.54498
+      value: -1.668
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 119.653
+      value: -1.467
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 673.046
+      value: -48.643
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
@@ -337,7 +342,7 @@ Camera:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
