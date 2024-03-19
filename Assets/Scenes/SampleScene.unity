@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -94,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -161,37 +160,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9110025
+      value: 0.8667476
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.007985988
+      value: -0.12880261
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.017660735
+      value: -0.28892028
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.4119452
+      value: -0.38559505
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.668
+      value: -26.493
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -1.467
+      value: -26.655
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -48.643
+      value: -41.582
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a01cb5b6788a3a04494373b48c75c528,
         type: 3}
@@ -238,9 +237,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
