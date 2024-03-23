@@ -10,9 +10,13 @@ public class Player : MonoBehaviour
     public float poXxmax;
 
 
-
+    // 
     void Update()
     {
-        
+        //Si le joueur a au moin un doigt sur l'écran
+        if (Input.touchCount > 0)
+        {
+            
+        }
     }
 }
