@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   private Touch touch;
+    private Touch touch;
     public float speed;
-    
+    public float poXxmin;
+    public float poXxmax;
 
-   
+
+
     void Update()
     {
         
