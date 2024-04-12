@@ -21,7 +21,17 @@ public class Player : MonoBehaviour
 
             // On teste si le joueur bouge le doigt
             if(touch.phase == TouchPhase.Moved) 
-            { }         
+            {
+            // On bouge le cube en suivant le mouvement du doigt
+            transform.position = new Vector3 (
+                 transform.position.x,
+                 transform.position.y,
+                 transform.position.z
+               
+               
+                );
+            
+            }         
         }
     }
 }
