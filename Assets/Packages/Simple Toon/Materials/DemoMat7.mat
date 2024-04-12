@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DemoMat7
-  m_Shader: {fileID: 4800000, guid: 128c5f1edaefa4c4fb3f9f7a4615edb2, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -91,6 +91,7 @@ Material:
     - _RimOverlap: 1
     - _RimSmooth: 1
     - _RimTolerc: 0.623
+    - _Scale: 1
     - _Segmented: 1
     - _ShnIntense: 0.253
     - _ShnOverlap: 0
@@ -110,6 +111,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0, g: 0.5849056, b: 0.47463647, a: 1}
+    - _Color1: {r: 1, g: 0.5, b: 0.5, a: 1}
+    - _Color2: {r: 0.5, g: 0.5, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MaxColor: {r: 0, g: 0.8590385, b: 0.8962264, a: 1}
     - _MinColor: {r: 0.21976727, g: 0, b: 0.4056604, a: 1}
