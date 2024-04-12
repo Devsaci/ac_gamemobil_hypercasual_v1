@@ -16,7 +16,12 @@ public class Player : MonoBehaviour
         //Si le joueur a au moin un doigt sur l'écran
         if (Input.touchCount > 0)
         {
+            // On recuper les infos du premier doigt posé sur l'écran tactil
             touch = Input.GetTouch(0);
+
+            // On teste si le joueur bouge le doigt
+            if(touch.phase == TouchPhase.Moved) 
+            { }         
         }
     }
 }
