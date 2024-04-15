@@ -27,8 +27,6 @@ public class Player : MonoBehaviour
                  transform.position.x,
                  transform.position.y,
                  transform.position.z
-               
-               
                 );
             
             }         
