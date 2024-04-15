@@ -22,7 +22,7 @@ public class Obstacle : MonoBehaviour
     {
         transform.Translate(Vector3.back*Time.deltaTime * speed);
     }
-
+    
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.name == "Player")
@@ -32,7 +32,10 @@ public class Obstacle : MonoBehaviour
 
         if (collision.gameObject.name == "Out");
         {
+            int newscore = int.Parse(text.text + 1);
+
             Destroy(gameObject);
         }
     }
+    
 }
