@@ -29,5 +29,10 @@ public class Obstacle : MonoBehaviour
         {
             Destroy(collision.gameObject);
         }
+
+        if (collision.gameObject.name == "Out");
+        {
+            Destroy(gameObject);
+        }
     }
 }
