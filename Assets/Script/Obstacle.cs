@@ -27,7 +27,7 @@ public class Obstacle : MonoBehaviour
     {
         if(collision.gameObject.name == "Player")
         {
-
+            Destroy(collision.gameObject);
         }
     }
 }
