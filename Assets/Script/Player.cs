@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
             {
             // On bouge le cube en suivant le mouvement du doigt
             transform.position = new Vector3 (
-                 transform.position.x,
+                 transform.position.x + touch.deltaPosition.x * speed,
                  transform.position.y,
                  transform.position.z
                 );
