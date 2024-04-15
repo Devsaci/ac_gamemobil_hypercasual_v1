@@ -31,9 +31,30 @@ public class Player : MonoBehaviour
             
             }         
         }
-
         // Bloquer le cube entre 2 valeurs sur l'axe des X
-        if(transform.position.x < poXxmin) { }
+        if (transform.position.x < poXxmin)
+        {
+            transform.position = new Vector3(
+                poXxmin,
+                transform.position.y,
+                transform.position.z
+                );
+
+        }
+
+        if (transform.position.x > poXxmax)
+        {
+            transform.position = new Vector3(
+                poXxmax,
+                transform.position.y,
+                transform.position.z
+                );
+        }
+
+
 
     }
+
+
+
 }
