@@ -20,7 +20,7 @@ public class Obstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.back*Time.deltaTime * speed);
+        transform.Translate(Vector3.back * Time.deltaTime * speed);
     }
     
     private void OnCollisionEnter(Collision collision)
@@ -30,12 +30,12 @@ public class Obstacle : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.name == "Out");
+        if (collision.gameObject.name == "Out")
         {
             int newScore = int.Parse(text.text + 1);
             text.text = newScore.ToString();
-            Destroy(gameObject);
+            Destroy(gameObject); 
         }
-    }
+    }  
     
 }
