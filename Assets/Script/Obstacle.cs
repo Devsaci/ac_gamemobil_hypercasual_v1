@@ -32,8 +32,8 @@ public class Obstacle : MonoBehaviour
 
         if (collision.gameObject.name == "Out");
         {
-            int newscore = int.Parse(text.text + 1);
-
+            int newScore = int.Parse(text.text + 1);
+            text.text = newScore.ToString();
             Destroy(gameObject);
         }
     }
