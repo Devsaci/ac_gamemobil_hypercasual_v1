@@ -22,4 +22,12 @@ public class Obstacle : MonoBehaviour
     {
         transform.Translate(Vector3.back*Time.deltaTime * speed);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.name == "Player")
+        {
+
+        }
+    }
 }
