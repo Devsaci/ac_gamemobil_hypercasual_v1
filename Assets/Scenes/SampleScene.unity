@@ -425,7 +425,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacle: {fileID: 5520160233426824277, guid: 9a5dc2e9f1146264d8c348d91a884656,
     type: 3}
-  pos: []
+  pos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &422356348
 Transform:
   m_ObjectHideFlags: 0
