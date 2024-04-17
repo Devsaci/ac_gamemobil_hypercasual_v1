@@ -428,7 +428,7 @@ MonoBehaviour:
   pos:
   - {fileID: 1551535366}
   - {fileID: 1973210626}
-  - {fileID: 0}
+  - {fileID: 2030049758}
 --- !u!4 &422356348
 Transform:
   m_ObjectHideFlags: 0
