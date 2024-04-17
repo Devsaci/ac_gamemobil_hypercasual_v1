@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
 
     public void SpawnObstacle() 
     {
-        Instantiate(obstacle, pos[Random.Range(0, pos.Length)]);  
+        Instantiate(obstacle, pos[Random.Range(0, pos.Length)].position, Quaternion.identity);  
     }
 
     
