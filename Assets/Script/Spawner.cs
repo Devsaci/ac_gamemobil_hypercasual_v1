@@ -14,7 +14,10 @@ public class Spawner : MonoBehaviour
         InvokeRepeating("SpawnObstacle", 4, 4);
     }
 
-    public void SpawnObstacle() { }
+    public void SpawnObstacle() 
+    { 
+    Instantiate(obstacle);
+    }
 
     
 }
