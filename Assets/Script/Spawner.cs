@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        InvokeRepeating("SpawnObstacle", 4, 4);
     }
 
     public void SpawnObstacle() { }
