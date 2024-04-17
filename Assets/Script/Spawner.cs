@@ -5,6 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject obstacle;
+    public Transform[] pos;
 
 
     // Start is called before the first frame update
